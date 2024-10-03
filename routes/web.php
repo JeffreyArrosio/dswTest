@@ -7,3 +7,7 @@ Route::get('/', function () {
 });
 
 Route::view ('/inicio', 'home');
+Route::get('/fecha', function () {
+    return view ('fecha');
+});
+
